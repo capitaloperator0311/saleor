@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set start and end date
-START_DATE="2017-03-07"  # YYYY-MM-DD
-END_DATE="2017-03-24"    # YYYY-MM-DD
+START_DATE="2017-07-01"  # YYYY-MM-DD
+END_DATE="2017-08-28"    # YYYY-MM-DD
 
 # Min and max commits per selected day
 MIN_COMMITS=2
