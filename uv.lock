@@ -2670,7 +2670,7 @@ requires-dist = [
     { name = "google-i18n-address", specifier = ">=3.1.0,<4" },
     { name = "graphene", specifier = "<3.0" },
     { name = "graphql-core", specifier = ">=2.3.2,<3" },
-    { name = "graphql-relay", specifier = ">=2.0.1,<3" },
+    { name = "graphql-relay", specifier = ">=2.0.1,<4" },
     { name = "html-to-draftjs", specifier = ">=1.0.1,<2" },
     { name = "kombu", extras = ["sqs"], specifier = ">=4.6.11,<6.0.0" },
     { name = "lxml", specifier = ">=4.9.3,<5" },
