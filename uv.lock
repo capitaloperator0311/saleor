@@ -2701,7 +2701,7 @@ requires-dist = [
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14,<0.5" },
     { name = "pytimeparse", specifier = ">=1.1.8,<2" },
     { name = "razorpay", specifier = "~=1.2" },
-    { name = "redis", specifier = ">=5.0.1,<6" },
+    { name = "redis", specifier = ">=5.0.1,<8" },
     { name = "requests", specifier = "~=2.32" },
     { name = "requests-hardened", specifier = ">=1.0.0,<2.0.0" },
     { name = "rx", specifier = ">=1.6.3,<2" },
