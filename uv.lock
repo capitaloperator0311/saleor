@@ -1828,11 +1828,11 @@ wheels = [
 
 [[package]]
 name = "posuto"
-version = "2025.11.0"
+version = "2025.12.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/77/b5/7d69bf715636c89109033649a14157f2514e341facb7951b32ce9227b637/posuto-2025.11.0.tar.gz", hash = "sha256:b1f0c3f986366a82451c929cd06687683428b6b92e91a4a0b785f2f0e6142cfd", size = 8529470, upload-time = "2025-11-01T11:49:52.052Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/77/94/a8db87645dc865efb3ff51cbfbbec837d40a490deb7d38e51e4d70ac9c2d/posuto-2025.12.0.tar.gz", hash = "sha256:ce425cbacc256d27989bf72e1335899681834f57aec094c1c900d3d21e40d999", size = 8531141, upload-time = "2025-12-01T13:28:24.209Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/31/1f/a4a0ee34ebec115244204503711dde73c9cd41f9051fe1659e67ce6ad639/posuto-2025.11.0-py3-none-any.whl", hash = "sha256:9574f0905b797e484bb75e547b8a546a635cb893faf37130cb120a4a28962b89", size = 7306636, upload-time = "2025-11-01T11:49:50.067Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/6a/226d92d89cec659a929dfd093325910e248578df1ac22670fe8c2f9d2afd/posuto-2025.12.0-py3-none-any.whl", hash = "sha256:40734a08b711266dc488b98b8908d52e8c1e4ff1d8f0446db05d27cc7e993bb6", size = 7307948, upload-time = "2025-12-01T13:28:21.675Z" },
 ]
 
 [[package]]
