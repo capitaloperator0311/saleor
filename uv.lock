@@ -27,15 +27,6 @@ wheels = [
 ]
 
 [[package]]
-name = "aniso8601"
-version = "7.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/7f/39/0da0982a3a42fd896beaa07425692fb3100a9d0e40723783efc20f1dec7c/aniso8601-7.0.0.tar.gz", hash = "sha256:513d2b6637b7853806ae79ffaca6f3e8754bdd547048f5ccc1420aec4b714f1e", size = 36465, upload-time = "2019-06-11T19:24:32.22Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/45/a4/b4fcadbdab46c2ec2d2f6f8b4ab3f64fd0040789ac7f065eba82119cd602/aniso8601-7.0.0-py2.py3-none-any.whl", hash = "sha256:d10a4bf949f619f719b227ef5386e31f49a2b6d453004b21f02661ccc8670c7b", size = 42031, upload-time = "2019-06-11T19:24:30.247Z" },
-]
-
-[[package]]
 name = "annotated-types"
 version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1034,45 +1025,38 @@ grpc = [
 
 [[package]]
 name = "graphene"
-version = "2.1.9"
+version = "2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "aniso8601", marker = "platform_python_implementation != 'PyPy'" },
     { name = "graphql-core", marker = "platform_python_implementation != 'PyPy'" },
     { name = "graphql-relay", marker = "platform_python_implementation != 'PyPy'" },
+    { name = "promise", marker = "platform_python_implementation != 'PyPy'" },
     { name = "six", marker = "platform_python_implementation != 'PyPy'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0a/9d/5a8890c7d14adbeda55e2d5f28120b4be2a7bfa0131674c340db1c162072/graphene-2.1.9.tar.gz", hash = "sha256:b9f2850e064eebfee9a3ef4a1f8aa0742848d97652173ab44c82cc8a62b9ed93", size = 44667, upload-time = "2021-07-16T20:10:21.856Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/08/bfd70dceb9038dd926be8ae5a496787a0f3ce26f63853c09de5d4541f0f4/graphene-2.0.tar.gz", hash = "sha256:d8b91565bdf3d3688b3d035b8a20768c49b2226e19bb21d280e0485d33f8e25c", size = 39485, upload-time = "2017-10-25T17:45:45.807Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/a2/b3e68706bf45abc2f9d70f099a4b4ca6305779577f4a03458d78fb39cd42/graphene-2.1.9-py2.py3-none-any.whl", hash = "sha256:3d446eb1237c551052bc31155cf1a3a607053e4f58c9172b83a1b597beaa0868", size = 107374, upload-time = "2021-07-16T20:10:19.959Z" },
+    { url = "https://files.pythonhosted.org/packages/16/8e/7eade0737c3c94efcb433bb8189e56750df05744904e128ab2c8e229ed94/graphene-2.0-py2.py3-none-any.whl", hash = "sha256:543392c6027f78da9a0fcc9bf678b8db7dcd2528b4193644d8f63d73fe4e8b03", size = 102182, upload-time = "2017-10-25T17:45:43.408Z" },
 ]
 
 [[package]]
 name = "graphql-core"
-version = "2.3.2"
+version = "3.2.7"
 source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "promise", marker = "platform_python_implementation != 'PyPy'" },
-    { name = "rx", marker = "platform_python_implementation != 'PyPy'" },
-    { name = "six", marker = "platform_python_implementation != 'PyPy'" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/88/a2/dd91d55a6f6dd88c4d3c284d387c94f1f933fedec43a86a4422940b9de18/graphql-core-2.3.2.tar.gz", hash = "sha256:aac46a9ac524c9855910c14c48fc5d60474def7f99fd10245e76608eba7af746", size = 104181, upload-time = "2020-05-12T22:29:20.625Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ac/9b/037a640a2983b09aed4a823f9cf1729e6d780b0671f854efa4727a7affbe/graphql_core-3.2.7.tar.gz", hash = "sha256:27b6904bdd3b43f2a0556dad5d579bdfdeab1f38e8e8788e555bdcb586a6f62c", size = 513484, upload-time = "2025-11-01T22:30:40.436Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/11/71/d51beba3d8986fa6d8670ec7bcba989ad6e852d5ae99d95633e5dacc53e7/graphql_core-2.3.2-py2.py3-none-any.whl", hash = "sha256:44c9bac4514e5e30c5a595fac8e3c76c1975cae14db215e8174c7fe995825bad", size = 252532, upload-time = "2020-05-12T22:29:19.082Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/14/933037032608787fb92e365883ad6a741c235e0ff992865ec5d904a38f1e/graphql_core-3.2.7-py3-none-any.whl", hash = "sha256:17fc8f3ca4a42913d8e24d9ac9f08deddf0a0b2483076575757f6c412ead2ec0", size = 207262, upload-time = "2025-11-01T22:30:38.912Z" },
 ]
 
 [[package]]
 name = "graphql-relay"
-version = "2.0.1"
+version = "3.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "graphql-core", marker = "platform_python_implementation != 'PyPy'" },
-    { name = "promise", marker = "platform_python_implementation != 'PyPy'" },
-    { name = "six", marker = "platform_python_implementation != 'PyPy'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/16/59/afbf1ce02631910ff0be06e5e057cc9e2806192d9b9c8d6671ff39e4abe2/graphql-relay-2.0.1.tar.gz", hash = "sha256:870b6b5304123a38a0b215a79eace021acce5a466bf40cd39fa18cb8528afabb", size = 21052, upload-time = "2019-12-06T22:30:12.974Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/13/98fbf8d67552f102488ffc16c6f559ce71ea15f6294728d33928ab5ff14d/graphql-relay-3.2.0.tar.gz", hash = "sha256:1ff1c51298356e481a0be009ccdff249832ce53f30559c1338f22a0e0d17250c", size = 50027, upload-time = "2022-04-16T11:03:45.447Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/94/48/6022ea2e89cb936c3b933a0409c6e29bf8a68c050fe87d97f98aff6e5e9e/graphql_relay-2.0.1-py3-none-any.whl", hash = "sha256:ac514cb86db9a43014d7e73511d521137ac12cf0101b2eaa5f0a3da2e10d913d", size = 20518, upload-time = "2019-12-06T22:30:11.61Z" },
+    { url = "https://files.pythonhosted.org/packages/74/16/a4cf06adbc711bd364a73ce043b0b08d8fa5aae3df11b6ee4248bcdad2e0/graphql_relay-3.2.0-py3-none-any.whl", hash = "sha256:c9b22bd28b170ba1fe674c74384a8ff30a76c8e26f88ac3aa1584dd3179953e5", size = 16940, upload-time = "2022-04-16T11:03:43.895Z" },
 ]
 
 [[package]]
@@ -2668,7 +2652,7 @@ requires-dist = [
     { name = "google-cloud-storage", specifier = ">=2.0.0,<4" },
     { name = "google-i18n-address", specifier = ">=3.1.0,<4" },
     { name = "graphene", specifier = "<3.0" },
-    { name = "graphql-core", specifier = ">=2.3.2,<3" },
+    { name = "graphql-core", specifier = ">=2.3.2,<4" },
     { name = "graphql-relay", specifier = ">=2.0.1,<4" },
     { name = "html-to-draftjs", specifier = ">=1.0.1,<2" },
     { name = "kombu", extras = ["sqs"], specifier = ">=4.6.11,<6.0.0" },
