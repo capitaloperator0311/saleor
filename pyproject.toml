@@ -40,7 +40,7 @@ dependencies = [
     "google-cloud-storage>=2.0.0,<4",
     "google-i18n-address>=3.1.0,<4",
     "graphene<3.0",
-    "graphql-core>=2.3.2,<3",
+    "graphql-core>=2.3.2,<4",
     "graphql-relay>=2.0.1,<4",
     "html-to-draftjs>=1.0.1,<2",
     "lxml>=4.9.3,<5",
