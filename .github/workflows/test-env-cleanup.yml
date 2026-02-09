@@ -16,7 +16,7 @@ jobs:
       contents: read
       deployments: write
     steps:
-      - uses: rlespinasse/github-slug-action@6f7a8d2348e2a4aa5defafcdaafe5aef3f83bd4b # v5.4.0
+      - uses: rlespinasse/github-slug-action@9e7def61550737ba68c62d34a32dd31792e3f429 # v5.5.0
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708 # v5.1.1
